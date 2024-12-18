@@ -35,7 +35,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://DeveloperBoA:.1txvg.mongodb.net/?retryWrites=true&w=majority&appName=DeveloperBoyA")
+DB_URI = environ.get("DB_URI", "mongodb+srv://DeveloperBoy-A:Jeetesh1999@developerboya.1txvg.mongodb.net/?retryWrites=true&w=majority&appName=DeveloperBoyA")
 DB_NAME = environ.get("DB_NAME", "DeveloperBoy-A")
 
 # Auto Delete Information
@@ -56,7 +56,7 @@ BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 # Verify Info :-
-VERIFY_MODE = bool(environ.get('VERIFY_MODE', True)) # Set True or False
+VERIFY_MODE = bool(environ.get('VERIFY_MODE', False)) # Set True or False
 
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "shortxlinks.com") # shortlink domain without https://
@@ -64,13 +64,13 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "67953c01ee00c1a64eaa18917d948a5714
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/moviesf2025/233") # how to open link 
 
 # Website Info:
-WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
+WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 WEBSITE_URL = environ.get("WEBSITE_URL", "https://dbfilestorebot.blogspot.com/2024/12/dbfilestore-bot.html") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
